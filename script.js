@@ -3,6 +3,7 @@ const translations = {
         'nav-projects': 'Proyectos',
         'nav-about': 'Sobre mí',
         'nav-contact': 'Contacto',
+        'nav-cv': 'Descargar CV',
         'hero-title': 'Hola, soy <span class="highlight">Sebastián Covarrubias</span>',
         'about-text': 'Desarrollador y diseñador de videojuegos. Me desempeño como generalista, participando en distintos aspectos del proceso de desarrollo según se requiera. Mi especialidad es el modelado 3D, tanto en su dimensión creativa como técnica.',
         'projects-title': 'Proyectos',
@@ -12,7 +13,7 @@ const translations = {
         'p2-desc': 'Juego multijugador en el que los jugadores pueden elegir entre dos bandos: Gatos ladrones o perro guardian. El objetivo de los gatos es robar objetos valiosos de la casa, mientras que el perro guardián debe proteger la casa y atrapar a los gatos.',
         'p3-title': '3D Modeling',
         'p3-desc': 'Modelado 3D de personajes, objetos y entornos para videojuegos y medios digitales.',
-        'projects-subtitle': 'Ver más gameplay y proyectos',
+        'projects-subtitle': 'Gameplay y proyectos',
         'contact-title': '¿Quieres contactarme?',
         'contact-subtitle': 'Siempre estoy abierto a nuevas oportunidades y colaboraciones.',
         'footer-text': 'Sebastián Covarrubias'
@@ -21,6 +22,7 @@ const translations = {
         'nav-projects': 'Projects',
         'nav-about': 'About me',
         'nav-contact': 'Contact',
+        'nav-cv': 'Download CV',
         'hero-title': 'Hi, I am <span class="highlight">Sebastián Covarrubias</span>',
         'about-text': 'Game developer and designer. I work as a generalist, participating in different aspects of the development process as needed. My specialty is 3D modeling, both in its creative and technical dimension.',
         'projects-title': 'Projects',
@@ -30,6 +32,7 @@ const translations = {
         'p2-desc': 'Multiplayer game where players can choose between two factions: Thieves or Guardian Dog. The goal of the thieves is to steal valuable objects from the house, while the guardian dog must protect the house and catch the thieves.',
         'p3-title': '3D Modeling',
         'p3-desc': '3D modeling of characters, objects and environments for video games and digital media.',
+        'projects-subtitle': 'Gameplay and Projects',
         'contact-title': 'Want to get in touch?',
         'contact-subtitle': 'I am always open to new opportunities and collaborations.',
         'footer-text': 'Sebastián Covarrubias'

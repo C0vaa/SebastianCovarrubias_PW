@@ -349,3 +349,25 @@ footer {
 .projects-link:hover .arrow {
     transform: translateX(8px); 
 }
+
+.cv-button {
+    background: var(--accent);
+    color: var(--bg) !important;
+    border-radius: 8px;
+    font-weight: bold !important;
+    transition: all 0.3s ease;
+    margin-left: 1.5rem;
+}
+
+.cv-button:hover {
+    background: #f8fafc;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+}
+
+@media (max-width: 768px) {
+    .cv-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
