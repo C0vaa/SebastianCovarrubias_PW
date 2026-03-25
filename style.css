@@ -21,15 +21,17 @@ body {
 }
 
 nav { 
-    padding: 1.5rem 10%; 
+    padding: 1rem 10%;
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
     position: sticky; 
     top: 0; 
-    background: rgba(15, 23, 42, 0.9); 
-    backdrop-filter: blur(10px); 
+
+    background: #111b2d;
+    backdrop-filter: blur(5px);
     z-index: 100; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .logo { 
@@ -141,21 +143,21 @@ footer {
 
 .lang-switcher {
     display: flex;
-    gap: 12px;
+    gap: 8px;
     align-items: center;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 6px 12px;
-    border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03); 
+    padding: 4px 8px; 
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .flag-btn {
     background: none;
-    border: 2px solid transparent;
+    border: none;
     padding: 0;
     cursor: pointer;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px; 
     border-radius: 50%; 
     overflow: hidden;
     transition: all 0.3s ease;
@@ -166,19 +168,22 @@ footer {
 }
 
 .flag-btn img {
-    width: 140%; 
+    width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .flag-btn:hover {
     transform: scale(1.15);
     filter: grayscale(0%);
-    box-shadow: 0 0 10px var(--accent);
+    box-shadow: 0 0 8px var(--accent);
 }
 
 .flag-btn.active {
-    border-color: var(--accent);
     filter: grayscale(0%);
-    box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.4);
+    border: 1px solid var(--accent);
+    box-sizing: content-box; 
+    width: 26px;
+    height: 26px;
 }
