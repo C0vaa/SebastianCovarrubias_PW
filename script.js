@@ -4,7 +4,7 @@ const translations = {
         'nav-about': 'Sobre mí',
         'nav-contact': 'Contacto',
         'hero-title': 'Hola, soy <span class="highlight">Sebastián Covarrubias</span>',
-        'hero-subtitle': 'Desarrollador y Diseñador de Desarrollador y diseñador de videojuegos. Me desempeño como generalista, participando en distintos aspectos del proceso de desarrollo según se requiera. Mi especialidad es el modelado 3D, tanto en su dimensión creativa como técnica.',
+        'hero-subtitle': 'Desarrollador y Diseñador de videojuegos. Me desempeño como generalista, participando en distintos aspectos del proceso de desarrollo según se requiera. Mi especialidad es el modelado 3D, tanto en su dimensión creativa como técnica.',
         'projects-title': 'Proyectos Destacados',
         'p1-title': 'Diseño de Texturas',
         'p1-desc': 'Exploración visual de patrones botánicos y texturas orgánicas para medios digitales.',
