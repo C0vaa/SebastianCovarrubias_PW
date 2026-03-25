@@ -9,47 +9,56 @@
 <body>
 
     <nav>
-        <div class="logo">Sebastián Covarrubias.</div>
-        <div class="nav-links">
-            <a href="#proyectos">Proyectos</a>
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#contacto">Contacto</a>
+        <div class="logo">TU NOMBRE.</div>
+        
+        <div class="nav-right">
+            <div class="lang-switcher">
+                <span class="flag" onclick="changeLanguage('es')" title="Español">🇨🇱</span>
+                <span class="flag" onclick="changeLanguage('en')" title="English">🇺🇸</span>
+            </div>
+
+            <div class="nav-links">
+                <a href="#proyectos" data-key="nav-projects">Proyectos</a>
+                <a href="#sobre-mi" data-key="nav-about">Sobre mí</a>
+                <a href="#contacto" data-key="nav-contact">Contacto</a>
+            </div>
         </div>
     </nav>
 
     <header>
-        <h1>Hola, soy <span class="highlight">Sebastián Covarrubias</span></h1>
-        <p class="subtitle">Estudiante de ultimo año de la carrera de ingenieria en realidad virtual y diseño de juegos digitales.  .</p>
+        <h1 data-key="hero-title">Hola, soy <span class="highlight">Tu Nombre</span></h1>
+        <p class="subtitle" data-key="hero-subtitle">Diseñador UI/UX y Desarrollador. Me especializo en crear experiencias digitales minimalistas y funcionales.</p>
     </header>
 
     <section id="proyectos">
-        <h2>Proyectos Destacados</h2>
+        <h2 data-key="projects-title">Proyectos Destacados</h2>
         <div class="grid">
             <div class="card">
-                <h3>Diseño de Texturas</h3>
-                <p>Exploración visual de patrones botánicos y texturas orgánicas para medios digitales.</p>
+                <h3 data-key="p1-title">Diseño de Texturas</h3>
+                <p data-key="p1-desc">Exploración visual de patrones botánicos y texturas orgánicas para medios digitales.</p>
             </div>
             <div class="card">
-                <h3>Fitness Tracker</h3>
-                <p>Aplicación para el seguimiento de rutinas de fuerza y análisis de progreso físico.</p>
+                <h3 data-key="p2-title">Fitness Tracker</h3>
+                <p data-key="p2-desc">Aplicación para el seguimiento de rutinas de fuerza y análisis de progreso físico.</p>
             </div>
             <div class="card">
-                <h3>Dashboard IA</h3>
-                <p>Visualización de datos en tiempo real utilizando modelos de machine learning.</p>
+                <h3 data-key="p3-title">Dashboard IA</h3>
+                <p data-key="p3-desc">Visualización de datos en tiempo real utilizando modelos de machine learning.</p>
             </div>
         </div>
     </section>
 
     <section id="contacto">
-        <h2>¿Tienes un proyecto en mente?</h2>
-        <p>Siempre estoy abierto a nuevas oportunidades y colaboraciones.</p>
+        <h2 data-key="contact-title">¿Tienes un proyecto en mente?</h2>
+        <p data-key="contact-subtitle">Siempre estoy abierto a nuevas oportunidades y colaboraciones.</p>
         <br>
-        <a href="sebastiancovarrubias11@gmail.com" class="email-link">sebastiancovarrubias@gmail.com</a>
+        <a href="mailto:tu@email.com" class="email-link">tu@email.com</a>
     </section>
 
     <footer>
-        <p>&copy; 2026 - Sebastián Covarrubias</p>
+        <p>&copy; 2026 - <span data-key="footer-text">Creado con pasión por Tu Nombre</span></p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
