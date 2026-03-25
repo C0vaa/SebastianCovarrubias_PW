@@ -13,9 +13,13 @@
         
         <div class="nav-right">
             <div class="lang-switcher">
-                <span class="flag" onclick="changeLanguage('es')" title="Español">🇨🇱</span>
-                <span class="flag" onclick="changeLanguage('en')" title="English">🇺🇸</span>
-            </div>
+    <button class="flag-btn active" onclick="changeLanguage('es', this)" title="Español">
+        <img src="https://flagcdn.com/w40/cl.png" alt="Chile">
+    </button>
+    <button class="flag-btn" onclick="changeLanguage('en', this)" title="English">
+        <img src="https://flagcdn.com/w40/us.png" alt="USA">
+    </button>
+    </div>
 
             <div class="nav-links">
                 <a href="#proyectos" data-key="nav-projects">Proyectos</a>

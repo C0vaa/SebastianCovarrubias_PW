@@ -141,20 +141,44 @@ footer {
 
 .lang-switcher {
     display: flex;
-    gap: 10px;
-    font-size: 1.5rem;
-    cursor: pointer;
+    gap: 12px;
+    align-items: center;
     background: rgba(255, 255, 255, 0.05);
-    padding: 5px 10px;
-    border-radius: 20px;
+    padding: 6px 12px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.flag {
-    transition: transform 0.2s, opacity 0.2s;
-    opacity: 0.7;
+.flag-btn {
+    background: none;
+    border: 2px solid transparent;
+    padding: 0;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; 
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(40%); 
 }
 
-.flag:hover {
-    transform: scale(1.2);
-    opacity: 1;
+.flag-btn img {
+    width: 140%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.flag-btn:hover {
+    transform: scale(1.15);
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px var(--accent);
+}
+
+.flag-btn.active {
+    border-color: var(--accent);
+    filter: grayscale(0%);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
 }

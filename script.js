@@ -35,9 +35,8 @@ const translations = {
     }
 };
 
-function changeLanguage(lang) {
+function changeLanguage(lang, element) {
     const elements = document.querySelectorAll('[data-key]');
-    
     elements.forEach(el => {
         const key = el.getAttribute('data-key');
         if (translations[lang][key]) {
@@ -45,6 +44,10 @@ function changeLanguage(lang) {
         }
     });
 
-    // Opcional: Cambiar el atributo lang del HTML para accesibilidad
+    document.querySelectorAll('.flag-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    element.classList.add('active');
+
     document.documentElement.lang = lang;
 }
