@@ -12,6 +12,7 @@ const translations = {
         'p2-desc': 'Juego multijugador en el que los jugadores pueden elegir entre dos bandos: Gatos ladrones o perro guardian. El objetivo de los gatos es robar objetos valiosos de la casa, mientras que el perro guardián debe proteger la casa y atrapar a los gatos.',
         'p3-title': '3D Modeling',
         'p3-desc': 'Modelado 3D de personajes, objetos y entornos para videojuegos y medios digitales.',
+        'projects-subtitle': 'Ver más gameplay y proyectos',
         'contact-title': '¿Quieres contactarme?',
         'contact-subtitle': 'Siempre estoy abierto a nuevas oportunidades y colaboraciones.',
         'footer-text': 'Sebastián Covarrubias'

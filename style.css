@@ -313,3 +313,39 @@ footer {
         height: 140px;
     }
 }
+
+.projects-footer {
+    text-align: center;
+    margin-top: 4rem; 
+    margin-bottom: 2rem; 
+}
+
+.projects-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--accent); 
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 12px 25px;
+    border-radius: 50px;
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    transition: all 0.3s ease;
+}
+
+.projects-link:hover {
+    background: rgba(56, 189, 248, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(56, 189, 248, 0.2);
+}
+
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.projects-link:hover .arrow {
+    transform: translateX(8px); 
+}
