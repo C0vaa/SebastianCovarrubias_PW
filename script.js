@@ -11,9 +11,12 @@ const translations = {
         'p1-desc': 'Juego de horror en realidad virtual ambientado en la fundación SCP. Explora la fundación mientras escapas de los monstruos que han sido liberados como experimento, donde tú eres la rata de laboratorio.',
         'p2-title': 'Thief Cats',
         'p2-desc': 'Juego multijugador en el que los jugadores pueden elegir entre dos bandos: Gatos ladrones o perro guardian. El objetivo de los gatos es robar objetos valiosos de la casa, mientras que el perro guardián debe proteger la casa y atrapar a los gatos.',
-        'p3-title': '3D Modeling',
+        'p3-title': 'Modelos 3D',
         'p3-desc': 'Modelado 3D de personajes, objetos y entornos para videojuegos y medios digitales.',
-        'projects-subtitle': 'Gameplay y proyectos',
+        'p4-title': 'Prototipo de nivel toon',
+        'p4-desc': 'Prototipo de nivel en estilo toon para videojuego.',
+        'p5-title': 'Low poly props',
+        'p5-desc': 'Props de bajo poligonaje para experiencia VR.',
         'contact-title': '¿Quieres contactarme?',
         'contact-subtitle': 'Siempre estoy abierto a nuevas oportunidades y colaboraciones.',
         'footer-text': 'Sebastián Covarrubias'
@@ -32,7 +35,11 @@ const translations = {
         'p2-desc': 'Multiplayer game where players can choose between two factions: Thieves or Guardian Dog. The goal of the thieves is to steal valuable objects from the house, while the guardian dog must protect the house and catch the thieves.',
         'p3-title': '3D Modeling',
         'p3-desc': '3D modeling of characters, objects and environments for video games and digital media.',
-        'projects-subtitle': 'Gameplay and Projects',
+        'p4-title': 'Toon Level Prototype',
+        'p4-desc': 'Level prototype in toon style for video game.',
+        'p5-title': 'Low poly props',
+        'p5-desc': 'Low poly props for VR experience.',
+
         'contact-title': 'Want to get in touch?',
         'contact-subtitle': 'I am always open to new opportunities and collaborations.',
         'footer-text': 'Sebastián Covarrubias'
