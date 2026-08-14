@@ -36,7 +36,7 @@ const translations = {
         'p3-title': '3D Modeling',
         'p3-desc': '3D modeling of characters, objects and environments for video games and digital media.',
         'p4-title': 'Toon Level Prototype',
-        'p4-desc': 'Level prototype in toon style for mobile video game.',
+        'p4-desc': 'Mobile game level prototype in toon style.',
         'p5-title': 'Low poly props',
         'p5-desc': 'Low poly props for VR experience.',
 
